@@ -13,15 +13,6 @@ public class Cfapp {
 		private Date timestamp;
 		private float ram;
 		
-		
-		public float getRam() {
-			return ram;
-		}
-
-		public void setRam(float ram) {
-			this.ram = ram;
-		}
-
 		public Cfapp(){
 			
 		}
@@ -35,6 +26,34 @@ public class Cfapp {
 		}
 		
 		
+		public String getCfOrgName() {
+			return cfOrgName;
+		}
+
+		public void setCfOrgName(String cfOrgName) {
+			this.cfOrgName = cfOrgName;
+		}
+
+		public String getCfSpaceName() {
+			return cfSpaceName;
+		}
+
+		public void setCfSpaceName(String cfSpaceName) {
+			this.cfSpaceName = cfSpaceName;
+		}
+
+		private String cfOrgName;
+		private String cfSpaceName;
+		
+		
+		public float getRam() {
+			return ram;
+		}
+
+		public void setRam(float ram) {
+			this.ram = ram;
+		}
+						
 		public String getId() {
 			return id;
 		}
