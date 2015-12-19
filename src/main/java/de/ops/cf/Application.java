@@ -11,7 +11,7 @@ public class Application {
 		String User=System.getenv("CFUser");
 		String Password=System.getenv("CFPassword");
 		logger.info(String.format("Read System Variables: User: %s, password: xxx", "s"));
-
+		
 	}
 
 }
