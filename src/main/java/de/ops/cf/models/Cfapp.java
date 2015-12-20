@@ -1,28 +1,38 @@
 package de.ops.cf.models;
 
 import org.springframework.data.annotation.Id;
-import java.util.Date;
 
+import com.mongodb.BasicDBObject;
+
+import java.util.Date;
 
 public class Cfapp {
 		//will be used for Mongo _id
 		@Id 
 		private String id;
 		private String appName;
-		private float cpu;
+		private double cpu;
 		private Date timestamp;
 		private float ram;
-		
-		public Cfapp(){
+		private int instance;
 			
+		public int getInstance() {
+			return instance;
 		}
-		
-		public Cfapp(String id, String appName, float cpu, Date timestamp) {
-			super();
-			this.id = id;
+
+
+		public void setInstance(int instance) {
+			this.instance = instance;
+		}
+
+
+		public Cfapp(String appName, double cpu, Date timestamp,int instance,float ram) {
+						
 			this.appName = appName;
 			this.cpu = cpu;
 			this.timestamp = timestamp;
+			this.instance=instance;
+			this.ram=ram;
 		}
 		
 		
@@ -70,11 +80,11 @@ public class Cfapp {
 			this.appName = appName;
 		}
 
-		public float getCpu() {
+		public double getCpu() {
 			return cpu;
 		}
 
-		public void setCpu(float cpu) {
+		public void setCpu(double cpu) {
 			this.cpu = cpu;
 		}
 
@@ -92,4 +102,17 @@ public class Cfapp {
 			return id+"::"+appName+"::"+String.valueOf(cpu)+String.valueOf(ram);
 		}
 		
+		public BasicDBObject getMongoObject()
+		{
+			BasicDBObject obj = new BasicDBObject();
+			
+			obj.put("appName", getAppName());
+			obj.put("instance", getInstance());
+			obj.put("cpu", getCpu());
+			obj.put("Ram", getRam());
+			obj.put("timestamp", getTimestamp());
+			
+			
+			return obj;
+		}
 }

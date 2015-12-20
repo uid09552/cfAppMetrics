@@ -3,6 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'gradle-one-jar'
 apply plugin: 'application'
 
+mainClassName='de.ops.cf.Application'
 version = '1.0'
 
 buildscript {
@@ -11,6 +12,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+       
     }
 }
 
@@ -34,10 +36,11 @@ dependencies {
     compile 'org.springframework:spring-core'
     compile 'org.springframework:spring-context:3.0.2.RELEASE'
     compile 'org.springframework.data:spring-data-commons-core:1.4.1.RELEASE'
+    compile 'org.springframework.data:spring-data-mongodb:1.8.2.RELEASE'
     
- 
+    
 }
-
+//all in one jar
 task fatJar(type: Jar) {
 	manifest {
         attributes 'Implementation-Title': 'cfAppMetricCollector',  
@@ -54,10 +57,3 @@ test {
 }
 
 
-
-task myjar(type: OneJar) {
-    mainClass = 'de.ops.cf.Application'
-    archiveName = 'start.jar'
-}
-
-mainClassName='de.ops.cf.Application'
