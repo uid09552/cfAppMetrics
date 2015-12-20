@@ -1,0 +1,219 @@
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/stats HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/stats HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJkNDQxMGFjOS1jODE5LTQ2Y2QtYmNiMy1mMTc0ODFlYmY1ZjciLCJzdWIiOiI3NDFlMDc0ZS02YzZiLTQ2YWEtOTYzZS04YTMyZThiMTRmYjAiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJvcGVuaWQiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiY2xpZW50X2lkIjoiY2YiLCJjaWQiOiJjZiIsImF6cCI6ImNmIiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6Ijc0MWUwNzRlLTZjNmItNDZhYS05NjNlLThhMzJlOGIxNGZiMCIsInVzZXJfbmFtZSI6Im1heGltaWxpYW4uaG9jaEBzaWVtZW5zLmNvbSIsImVtYWlsIjoibWF4aW1pbGlhbi5ob2NoQHNpZW1lbnMuY29tIiwiaWF0IjoxNDUwNjA0ODY0LCJleHAiOjE0NTA2MTIwNjQsImlzcyI6Imh0dHBzOi8vdWFhLnN5cy5zYWdpY3NmbW8uY2YuY2Fub3B5LWNsb3VkLmNvbS9vYXV0aC90b2tlbiIsImF1ZCI6WyJjZiIsInBhc3N3b3JkIiwiY2xvdWRfY29udHJvbGxlciIsIm9wZW5pZCJdfQ.ehRZ3pSvBBkAMyz1QbrYnjg40jPyoLcCuGDNycn7LWOZB0qgqMn8d7EAVdj9e-AB0ZELMeaOxNoORecnO7HODqyIfrpqIrXxSnOIIBONiFGHlSwqZuA9_KlfR0yHjxI3ZT_e7_7oXPfY8tXNBEiRDmCtmeprIW9v-liCr_PXeS54i3Q65Zjdhh2r8z6GgjDSlqxJTpwDPL4TbnsK8rW2rXwgpTGuoyxWpYYhJMerdVw30kC9PmWT3__2xabeN-W4Jxtpml1Ssa4RxBlTEdSUVeRobdfe_PxPQPjT5_HkcoOAFZUZadJXXL_E81boAmewgeGwEWKE36wUuaMi7INXtA
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept: text/plain, application/json, application/*+json, */*
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: api.sys.sagicsfmo.cf.canopy-cloud.com
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/stats HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJkNDQxMGFjOS1jODE5LTQ2Y2QtYmNiMy1mMTc0ODFlYmY1ZjciLCJzdWIiOiI3NDFlMDc0ZS02YzZiLTQ2YWEtOTYzZS04YTMyZThiMTRmYjAiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJvcGVuaWQiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiY2xpZW50X2lkIjoiY2YiLCJjaWQiOiJjZiIsImF6cCI6ImNmIiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6Ijc0MWUwNzRlLTZjNmItNDZhYS05NjNlLThhMzJlOGIxNGZiMCIsInVzZXJfbmFtZSI6Im1heGltaWxpYW4uaG9jaEBzaWVtZW5zLmNvbSIsImVtYWlsIjoibWF4aW1pbGlhbi5ob2NoQHNpZW1lbnMuY29tIiwiaWF0IjoxNDUwNjA0ODY0LCJleHAiOjE0NTA2MTIwNjQsImlzcyI6Imh0dHBzOi8vdWFhLnN5cy5zYWdpY3NmbW8uY2YuY2Fub3B5LWNsb3VkLmNvbS9vYXV0aC90b2tlbiIsImF1ZCI6WyJjZiIsInBhc3N3b3JkIiwiY2xvdWRfY29udHJvbGxlciIsIm9wZW5pZCJdfQ.ehRZ3pSvBBkAMyz1QbrYnjg40jPyoLcCuGDNycn7LWOZB0qgqMn8d7EAVdj9e-AB0ZELMeaOxNoORecnO7HODqyIfrpqIrXxSnOIIBONiFGHlSwqZuA9_KlfR0yHjxI3ZT_e7_7oXPfY8tXNBEiRDmCtmeprIW9v-liCr_PXeS54i3Q65Zjdhh2r8z6GgjDSlqxJTpwDPL4TbnsK8rW2rXwgpTGuoyxWpYYhJMerdVw30kC9PmWT3__2xabeN-W4Jxtpml1Ssa4RxBlTEdSUVeRobdfe_PxPQPjT5_HkcoOAFZUZadJXXL_E81boAmewgeGwEWKE36wUuaMi7INXtA[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: api.sys.sagicsfmo.cf.canopy-cloud.com[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 340[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Sun, 20 Dec 2015 09:47:52 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: nginx[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Cf-Requestid: c089b4e8-39e3-43cf-7580-2cbf565d83d5[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Vcap-Request-Id: 9cd2f2f6-1e01-4910-4cef-05bca9eb04dd::0c91256d-d3a8-41b6-bb76-102db2d37a16[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"0":{"state":"RUNNING","stats":{"name":"mongo-broker","uris":["mongo-broker.apps.sagicsfmo.cf.canopy-cloud.com"],"host":"192.168.100.31","port":62808,"uptime":1000633,"mem_quota":536870912,"disk_quota":1073741824,"fds_quota":16384,"usage":{"time":"2015-12-20 09:47:52 +0000","cpu":0.0007887151971845763,"mem":376492032,"disk":142180352}}}}"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 340
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=utf-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Sun, 20 Dec 2015 09:47:52 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: nginx
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Cf-Requestid: c089b4e8-39e3-43cf-7580-2cbf565d83d5
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Vcap-Request-Id: 9cd2f2f6-1e01-4910-4cef-05bca9eb04dd::0c91256d-d3a8-41b6-bb76-102db2d37a16
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - GET request for "https://api.sys.sagicsfmo.cf.canopy-cloud.com/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/stats" resulted in 200 (OK)
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@a776e]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - Created GET request for "https://api.sys.sagicsfmo.cf.canopy-cloud.com/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes?inline-relations-depth=1"
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes?inline-relations-depth=1 HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes?inline-relations-depth=1 HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Authorization: bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJkNDQxMGFjOS1jODE5LTQ2Y2QtYmNiMy1mMTc0ODFlYmY1ZjciLCJzdWIiOiI3NDFlMDc0ZS02YzZiLTQ2YWEtOTYzZS04YTMyZThiMTRmYjAiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJvcGVuaWQiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiY2xpZW50X2lkIjoiY2YiLCJjaWQiOiJjZiIsImF6cCI6ImNmIiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6Ijc0MWUwNzRlLTZjNmItNDZhYS05NjNlLThhMzJlOGIxNGZiMCIsInVzZXJfbmFtZSI6Im1heGltaWxpYW4uaG9jaEBzaWVtZW5zLmNvbSIsImVtYWlsIjoibWF4aW1pbGlhbi5ob2NoQHNpZW1lbnMuY29tIiwiaWF0IjoxNDUwNjA0ODY0LCJleHAiOjE0NTA2MTIwNjQsImlzcyI6Imh0dHBzOi8vdWFhLnN5cy5zYWdpY3NmbW8uY2YuY2Fub3B5LWNsb3VkLmNvbS9vYXV0aC90b2tlbiIsImF1ZCI6WyJjZiIsInBhc3N3b3JkIiwiY2xvdWRfY29udHJvbGxlciIsIm9wZW5pZCJdfQ.ehRZ3pSvBBkAMyz1QbrYnjg40jPyoLcCuGDNycn7LWOZB0qgqMn8d7EAVdj9e-AB0ZELMeaOxNoORecnO7HODqyIfrpqIrXxSnOIIBONiFGHlSwqZuA9_KlfR0yHjxI3ZT_e7_7oXPfY8tXNBEiRDmCtmeprIW9v-liCr_PXeS54i3Q65Zjdhh2r8z6GgjDSlqxJTpwDPL4TbnsK8rW2rXwgpTGuoyxWpYYhJMerdVw30kC9PmWT3__2xabeN-W4Jxtpml1Ssa4RxBlTEdSUVeRobdfe_PxPQPjT5_HkcoOAFZUZadJXXL_E81boAmewgeGwEWKE36wUuaMi7INXtA
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept: text/plain, application/json, application/*+json, */*
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: api.sys.sagicsfmo.cf.canopy-cloud.com
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes?inline-relations-depth=1 HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Authorization: bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJkNDQxMGFjOS1jODE5LTQ2Y2QtYmNiMy1mMTc0ODFlYmY1ZjciLCJzdWIiOiI3NDFlMDc0ZS02YzZiLTQ2YWEtOTYzZS04YTMyZThiMTRmYjAiLCJzY29wZSI6WyJwYXNzd29yZC53cml0ZSIsImNsb3VkX2NvbnRyb2xsZXIud3JpdGUiLCJvcGVuaWQiLCJjbG91ZF9jb250cm9sbGVyLnJlYWQiXSwiY2xpZW50X2lkIjoiY2YiLCJjaWQiOiJjZiIsImF6cCI6ImNmIiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6Ijc0MWUwNzRlLTZjNmItNDZhYS05NjNlLThhMzJlOGIxNGZiMCIsInVzZXJfbmFtZSI6Im1heGltaWxpYW4uaG9jaEBzaWVtZW5zLmNvbSIsImVtYWlsIjoibWF4aW1pbGlhbi5ob2NoQHNpZW1lbnMuY29tIiwiaWF0IjoxNDUwNjA0ODY0LCJleHAiOjE0NTA2MTIwNjQsImlzcyI6Imh0dHBzOi8vdWFhLnN5cy5zYWdpY3NmbW8uY2YuY2Fub3B5LWNsb3VkLmNvbS9vYXV0aC90b2tlbiIsImF1ZCI6WyJjZiIsInBhc3N3b3JkIiwiY2xvdWRfY29udHJvbGxlciIsIm9wZW5pZCJdfQ.ehRZ3pSvBBkAMyz1QbrYnjg40jPyoLcCuGDNycn7LWOZB0qgqMn8d7EAVdj9e-AB0ZELMeaOxNoORecnO7HODqyIfrpqIrXxSnOIIBONiFGHlSwqZuA9_KlfR0yHjxI3ZT_e7_7oXPfY8tXNBEiRDmCtmeprIW9v-liCr_PXeS54i3Q65Zjdhh2r8z6GgjDSlqxJTpwDPL4TbnsK8rW2rXwgpTGuoyxWpYYhJMerdVw30kC9PmWT3__2xabeN-W4Jxtpml1Ssa4RxBlTEdSUVeRobdfe_PxPQPjT5_HkcoOAFZUZadJXXL_E81boAmewgeGwEWKE36wUuaMi7INXtA[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: api.sys.sagicsfmo.cf.canopy-cloud.com[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 5129[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Sun, 20 Dec 2015 09:47:53 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: nginx[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Cf-Requestid: 1b09fae2-1d66-49a9-5d9a-37a0318070c6[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "X-Vcap-Request-Id: 69932880-b990-4355-6116-962c000031df::68a30b51-009a-44d1-9e85-fd5732d38edc[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  "total_results": 1,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  "total_pages": 1,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  "prev_url": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  "next_url": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  "resources": [[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      "metadata": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "guid": "e57f14fd-0469-4231-9771-cdab2c080fe2",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "url": "/v2/routes/e57f14fd-0469-4231-9771-cdab2c080fe2",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "created_at": "2015-12-08T19:06:39Z",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "updated_at": null[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      "entity": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "host": "mongo-broker",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "domain_guid": "5aec99dc-f874-44b5-8c8a-943a129e9305",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "space_guid": "c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "domain_url": "/v2/domains/5aec99dc-f874-44b5-8c8a-943a129e9305",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "domain": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          "metadata": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "guid": "5aec99dc-f874-44b5-8c8a-943a129e9305",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "url": "/v2/domains/5aec99dc-f874-44b5-8c8a-943a129e9305",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "created_at": "2014-09-30T13:13:35Z",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "updated_at": null[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          "entity": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "name": "apps.sagicsfmo.cf.canopy-cloud.com"[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "space_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "space": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          "metadata": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "guid": "c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "created_at": "2015-03-30T14:14:46Z",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "updated_at": null[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          "entity": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "name": "osm",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "organization_guid": "13d23e10-4ed3-4b1b-b213-72bfe162ae88",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "space_quota_definition_guid": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "organization_url": "/v2/organizations/13d23e10-4ed3-4b1b-b213-72bfe162ae88",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "developers_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/developers",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "managers_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/managers",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "auditors_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/auditors",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "apps_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/apps",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "routes_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/routes",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "domains_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/domains",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "service_instances_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/service_instances",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "app_events_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/app_events",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "events_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/events",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "security_groups_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb/security_groups"[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "apps_url": "/v2/routes/e57f14fd-0469-4231-9771-cdab2c080fe2/apps",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        "apps": [[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "metadata": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "guid": "77b7dcdf-4761-4abe-852f-811acd44a810",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "url": "/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "created_at": "2015-12-08T19:06:37Z",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "updated_at": "2015-12-08T19:50:40Z"[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            "entity": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "name": "mongo-broker",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "production": false,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "space_guid": "c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "stack_guid": "4c056b26-9338-415a-bbfb-3a74dedee6fa",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "buildpack": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "detected_buildpack": "java-buildpack=unknown java-main open-jdk-like-jre=1.8.0_65 open-jdk-like-memory-calculator=2.0.1_RELEASE spring-auto-reconfiguration=1.10.0_RELEASE",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "environment_json": {[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              },[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "memory": 512,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "instances": 1,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "disk_quota": 1024,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "state": "STARTED",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "version": "bff38752-6d88-47bf-a8c3-b4e6709ed3e7",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "command": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "console": false,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "debug": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "staging_task_id": "023723c619df45c69998eb03582e59bc",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "package_state": "STAGED"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 5129
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=utf-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Sun, 20 Dec 2015 09:47:53 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: nginx
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Cf-Requestid: 1b09fae2-1d66-49a9-5d9a-37a0318070c6
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG main org.apache.http.headers - http-outgoing-0 << X-Vcap-Request-Id: 69932880-b990-4355-6116-962c000031df::68a30b51-009a-44d1-9e85-fd5732d38edc
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - GET request for "https://api.sys.sagicsfmo.cf.canopy-cloud.com/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes?inline-relations-depth=1" resulted in 200 (OK)
+DEBUG main org.cloudfoundry.client.lib.rest.LoggingRestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@a776e]
+DEBUG main org.apache.http.wire - http-outgoing-0 << "",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "health_check_type": "port",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "health_check_timeout": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "staging_failed_reason": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "diego": false,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "docker_image": null,[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "package_updated_at": "2015-12-08T19:49:53Z",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "detected_start_command": "CALCULATED_MEMORY=$($PWD/.java-buildpack/open_jdk_jre/bin/java-buildpack-memory-calculator-2.0.1_RELEASE -memorySizes=metaspace:64m.. -memoryWeights=heap:75,metaspace:10,native:10,stack:5 -memoryInitials=heap:100%,metaspace:100% -totMemory=$MEMORY_LIMIT) && SERVER_PORT=$PORT $PWD/.java-buildpack/open_jdk_jre/bin/java -cp $PWD/.:$PWD/.java-buildpack/spring_auto_reconfiguration/spring_auto_reconfiguration-1.10.0_RELEASE.jar -Djava.io.tmpdir=$TMPDIR -XX:OnOutOfMemoryError=$PWD/.java-buildpack/open_jdk_jre/bin/killjava.sh $CALCULATED_MEMORY org.springframework.boot.loader.WarLauncher",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "space_url": "/v2/spaces/c2b06b56-01f0-4175-bd76-995c72c0fadb",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "stack_url": "/v2/stacks/4c056b26-9338-415a-bbfb-3a74dedee6fa",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "events_url": "/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/events",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "service_bindings_url": "/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/service_bindings",[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "              "routes_url": "/v2/apps/77b7dcdf-4761-4abe-852f-811acd44a810/routes"[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "            }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        ][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    }[\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  ][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "}"
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.sys.sagicsfmo.cf.canopy-cloud.com:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+INFO main de.ops.cf.services.CfService - App found: asm-ipython
+INFO main de.ops.cf.services.CfService - App found: cockpit
+INFO main de.ops.cf.services.CfService - App found: user-management
+INFO main de.ops.cf.services.CfService - App found: asm-data-service
+INFO main de.ops.cf.services.CfService - App found: mongo-bak5
+INFO main de.ops.cf.services.CfService - App found: asm-openui5-cloud
+INFO main de.ops.cf.services.CfService - App found: isbbridge
+INFO main de.ops.cf.services.CfService - App found: chisel
+INFO main de.ops.cf.services.CfService - App found: asm-cockpit
+INFO main de.ops.cf.services.CfService - App found: chisel2
+INFO main de.ops.cf.services.CfService - App found: ipython-minimal
+INFO main de.ops.cf.services.CfService - App found: riakcsreverseproxy
+INFO main de.ops.cf.services.CfService - App found: cf_monitor_check
+INFO main de.ops.cf.services.CfService - App found: osm2pgsql
+INFO main de.ops.cf.services.CfService - App found: geowebcache1.8
+INFO main de.ops.cf.services.CfService - App found: geoserver2.8
+INFO main de.ops.cf.services.CfService - App found: my-app
+INFO main de.ops.cf.services.CfService - App found: ipython
+INFO main de.ops.cf.services.CfService - App found: amntip
+INFO main de.ops.cf.services.CfService - App found: socketio
+INFO main de.ops.cf.services.CfService - App found: nifty-gui
+INFO main de.ops.cf.services.CfService - App found: spring-music
+INFO main de.ops.cf.services.CfService - App found: mongo-broker
